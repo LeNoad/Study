@@ -36,6 +36,6 @@ SELECT a.empno
 - 아우터 조인(RIGHT OUTER JOIN)
 - 크로스 조인(CROSS JOIN)
 - 풀 아우터 조인(FULL OUTER JOIN)
-```[](https://github.com/LeNoad/Study/tree/master/ORACLE)
+```
 
  #### 조인은 크게 위의 5가지 정도로 분류 할 수 있다. 조인(INNER JOIN) 과 아우터 조인(LEFT OUTER JOIN) 은 아주 많이 사용된다. 따라서 ANSI JOIN 과 ORACLE JOIN을 비교하여 두 가지 방식 모두 익혀 두어야 한다.
