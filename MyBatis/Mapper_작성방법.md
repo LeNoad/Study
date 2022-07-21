@@ -151,5 +151,11 @@ resultType 속성을 사용하면 setter의 매칭되지 않는 경우 각 컬�
 - ```<resultMap>```.id : resultMap의 id
 - ```<id>``` : 객체 식별자로 사용되는 프로퍼티
 - ```<id>```.column : 컬럼명
-----
-여기까지 작성함. 2022-07-21
+- ```<id>```.property : 객체 프로퍼티명(setter 메소드 이름에서 set을 빼고 첫 알파벳을 소문자로 만든 이름)
+- ```<result>``` : 컬럼-setter 연결 정의
+- ```<result>```.column : 컬럼명
+- ```<result>```.property : 객체 프로퍼티명(setter 메소드 이름에서 set을 빼고 첫 알파벳을 소문자로 만든 이름)
+- ```<result>```.javaType : 컬럼 값을 특정 자바 객체로 변환할때 사용
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5QMtM%2FbtqCd1hn9eM%2FitTNgea8pYBxNzKecxtaXk%2Fimg.png)
+
+정의한 ```<resultMap>```은 ```<select>```의```<resultMap>```id를 지정해서 사용할 수 있다.
