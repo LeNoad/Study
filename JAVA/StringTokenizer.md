@@ -26,7 +26,7 @@ public StringTokenizer(String str, String delim, boolean returnDelim); | str을 
 
 ## 1. 예제
 ```
-public static void main(String[] ar){
+public static void main(String[] args){
 	String str="this string includes default delims";
 	System.out.println(str);
 	System.out.println();
@@ -58,7 +58,7 @@ delims
 ## 2. Default Delim을 이용
 
 ```
-public static void main(String[] ar){
+public static void main(String[] args){
 	String str="this string\tincludes\ndefault delims";
 	StringTokenizer stk=new StringTokenizer(str);
 	System.out.println(str);
@@ -93,7 +93,7 @@ total tokens:0
 
 ## 3. 특정 delim 을 이용
 ```
-public static void main(String[] ar){
+public static void main(String[] args){
 	String str="this-=string-includes=delims";
 	StringTokenizer stk=new StringTokenizer(str,"-=");
 	System.out.println(str);
@@ -122,7 +122,7 @@ string-includes=delims
 
 ## 4. delim 까지 포함
 ```
-public static void main(String[] ar){
+public static void main(String[] args){
 	String str="this-string-includes=delims";
 	StringTokenizer stk=new StringTokenizer(str,"-=",true);
 	System.out.println(str);
