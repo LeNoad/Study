@@ -39,5 +39,6 @@ public class BlackJack_BruteForce {
             }
         }
         System.out.println(max);
+        sc.close();
     }
 }
