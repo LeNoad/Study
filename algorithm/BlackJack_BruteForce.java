@@ -33,6 +33,7 @@ public class BlackJack_BruteForce {
                     /* max == m 이 가장 가까운 답이므로 출력 후 종료 */
                     if(max == m ) {
                         System.out.println(max);
+                        sc.close();
                         return;
                     }
                 }
